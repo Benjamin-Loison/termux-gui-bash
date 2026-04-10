@@ -23,7 +23,7 @@ bar="$(tg_create_linear "$aid" params "$layout")"
 
 unset "params[$tgc_create_vertical]"
 
-# Set the height no the minimum needed
+# Set the height to the minimum needed
 tg_view_height "$aid" "$bar" "$tgc_view_wrap_content"
 # Don't let it expand to unused space
 tg_view_linear "$aid" "$bar" 0
